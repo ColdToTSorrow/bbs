@@ -1,0 +1,224 @@
+[INFO] [2015-10-14 15:24:55][org.springframework.test.context.support.DefaultTestContextBootstrapper]Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO] [2015-10-14 15:24:55][org.springframework.test.context.support.DefaultTestContextBootstrapper]Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1dad8678, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6b573f80, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2d0a238e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@74a456bb, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@513a4ad0]
+[INFO] [2015-10-14 15:24:56][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-config.xml]
+[INFO] [2015-10-14 15:24:56][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@500bb303: startup date [Wed Oct 14 15:24:56 CST 2015]; root of context hierarchy
+[INFO] [2015-10-14 15:24:56][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [resources.properties]
+[INFO] [2015-10-14 15:24:56][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2015-10-14 15:24:57][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO] [2015-10-14 15:24:57][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+[INFO] [2015-10-14 15:24:57][org.hibernate.Version]HHH000412: Hibernate Core {4.3.1.Final}
+[INFO] [2015-10-14 15:24:57][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO] [2015-10-14 15:24:57][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO] [2015-10-14 15:24:57][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO] [2015-10-14 15:24:58][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO] [2015-10-14 15:24:58][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[WARN] [2015-10-14 15:24:58][net.sf.ehcache.config.ConfigurationFactory]No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/D:/JavaWorkSpace/scauwork/bbs/WebContent/WEB-INF/lib/ehcache-core-2.5.7.jar!/ehcache-failsafe.xml
+[INFO] [2015-10-14 15:24:58][org.hibernate.cache.spi.UpdateTimestampsCache]HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+[WARN] [2015-10-14 15:24:58][org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory]HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+[INFO] [2015-10-14 15:24:58][org.hibernate.cache.internal.StandardQueryCache]HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+[WARN] [2015-10-14 15:24:58][org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory]HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+[INFO] [2015-10-14 15:24:58][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO] [2015-10-14 15:24:58][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO] [2015-10-14 15:24:58][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO] [2015-10-14 15:24:58][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: bbs.bbs_group
+[INFO] [2015-10-14 15:24:58][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [id, name, permission]
+[INFO] [2015-10-14 15:24:58][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO] [2015-10-14 15:24:58][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO] [2015-10-14 15:24:58][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: bbs.bbs_user
+[INFO] [2015-10-14 15:24:58][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [id, username, status, nickname, email, group_id, createdate, password, salt]
+[INFO] [2015-10-14 15:24:58][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: [fk_74c73ajgxwqhq220m4odm0dcx]
+[INFO] [2015-10-14 15:24:58][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [fk_74c73ajgxwqhq220m4odm0dcx, primary]
+[INFO] [2015-10-14 15:24:58][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO] [2015-10-14 15:24:58][org.springframework.orm.hibernate4.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2015-10-14 15:24:56",
+	ActiveCount:0,
+	PoolingCount:10,
+	CreateCount:10,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:967087526, ConnectTime:"2015-10-14 15:24:57", UseCount:0, LastActiveTime:"2015-10-14 15:24:57"},
+		{ID:1683808986, ConnectTime:"2015-10-14 15:24:57", UseCount:0, LastActiveTime:"2015-10-14 15:24:57"},
+		{ID:238127536, ConnectTime:"2015-10-14 15:24:57", UseCount:0, LastActiveTime:"2015-10-14 15:24:57"},
+		{ID:1447463191, ConnectTime:"2015-10-14 15:24:57", UseCount:0, LastActiveTime:"2015-10-14 15:24:57"},
+		{ID:819097921, ConnectTime:"2015-10-14 15:24:57", UseCount:0, LastActiveTime:"2015-10-14 15:24:57"},
+		{ID:1208580977, ConnectTime:"2015-10-14 15:24:57", UseCount:0, LastActiveTime:"2015-10-14 15:24:57"},
+		{ID:1720147113, ConnectTime:"2015-10-14 15:24:57", UseCount:0, LastActiveTime:"2015-10-14 15:24:57"},
+		{ID:1087672277, ConnectTime:"2015-10-14 15:24:57", UseCount:0, LastActiveTime:"2015-10-14 15:24:57"},
+		{ID:1127156275, ConnectTime:"2015-10-14 15:24:57", UseCount:0, LastActiveTime:"2015-10-14 15:24:57"},
+		{ID:1162263738, ConnectTime:"2015-10-14 15:24:57", UseCount:2, LastActiveTime:"2015-10-14 15:24:58"}
+	]
+}
+
+[
+	{
+	ID:967087526, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1683808986, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:238127536, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1447463191, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:819097921, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1208580977, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1720147113, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1087672277, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1127156275, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1162263738, 
+	poolStatements:[
+		]
+	}
+]] of Hibernate SessionFactory for HibernateTransactionManager
+[INFO] [2015-10-14 15:24:58][org.springframework.cache.ehcache.EhCacheManagerFactoryBean]Initializing EhCache CacheManager
+[INFO] [2015-10-14 15:24:58][org.hibernate.validator.internal.util.Version]HV000001: Hibernate Validator 4.3.1.Final
+[INFO] [2015-10-14 15:24:58][org.springframework.test.context.transaction.TransactionContext]Began transaction (1) for test context [DefaultTestContext@d321163 testClass = TestUser, testInstance = baseProject.TestUser@52138159, testMethod = testSave@TestUser, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7e912427 testClass = TestUser, locations = '{classpath:spring-config.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.hibernate4.HibernateTransactionManager@6adcbd5b]; rollback [false]
+[INFO] [2015-10-14 15:24:59][org.springframework.test.context.transaction.TransactionContext]Committed transaction for test context [DefaultTestContext@d321163 testClass = TestUser, testInstance = baseProject.TestUser@52138159, testMethod = testSave@TestUser, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7e912427 testClass = TestUser, locations = '{classpath:spring-config.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+[INFO] [2015-10-14 15:24:59][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@500bb303: startup date [Wed Oct 14 15:24:56 CST 2015]; root of context hierarchy
+[INFO] [2015-10-14 15:24:59][org.springframework.cache.ehcache.EhCacheManagerFactoryBean]Shutting down EhCache CacheManager
+[INFO] [2015-10-14 15:24:59][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2015-10-14 15:25:22][org.springframework.test.context.support.DefaultTestContextBootstrapper]Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO] [2015-10-14 15:25:22][org.springframework.test.context.support.DefaultTestContextBootstrapper]Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@73b8dc93, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6d99723f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@751bbe4f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@706b7099, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1dad8678]
+[INFO] [2015-10-14 15:25:22][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-config.xml]
+[INFO] [2015-10-14 15:25:23][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@7362e07d: startup date [Wed Oct 14 15:25:23 CST 2015]; root of context hierarchy
+[INFO] [2015-10-14 15:25:23][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [resources.properties]
+[INFO] [2015-10-14 15:25:23][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2015-10-14 15:25:24][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO] [2015-10-14 15:25:24][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+[INFO] [2015-10-14 15:25:24][org.hibernate.Version]HHH000412: Hibernate Core {4.3.1.Final}
+[INFO] [2015-10-14 15:25:24][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO] [2015-10-14 15:25:24][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO] [2015-10-14 15:25:24][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO] [2015-10-14 15:25:24][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO] [2015-10-14 15:25:24][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[WARN] [2015-10-14 15:25:24][net.sf.ehcache.config.ConfigurationFactory]No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/D:/JavaWorkSpace/scauwork/bbs/WebContent/WEB-INF/lib/ehcache-core-2.5.7.jar!/ehcache-failsafe.xml
+[INFO] [2015-10-14 15:25:24][org.hibernate.cache.spi.UpdateTimestampsCache]HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+[WARN] [2015-10-14 15:25:24][org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory]HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+[INFO] [2015-10-14 15:25:24][org.hibernate.cache.internal.StandardQueryCache]HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+[WARN] [2015-10-14 15:25:24][org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory]HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+[INFO] [2015-10-14 15:25:25][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO] [2015-10-14 15:25:25][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO] [2015-10-14 15:25:25][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO] [2015-10-14 15:25:25][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: bbs.bbs_group
+[INFO] [2015-10-14 15:25:25][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [id, name, permission]
+[INFO] [2015-10-14 15:25:25][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO] [2015-10-14 15:25:25][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO] [2015-10-14 15:25:25][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: bbs.bbs_user
+[INFO] [2015-10-14 15:25:25][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [id, username, status, nickname, email, group_id, createdate, password, salt]
+[INFO] [2015-10-14 15:25:25][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: [fk_74c73ajgxwqhq220m4odm0dcx]
+[INFO] [2015-10-14 15:25:25][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [fk_74c73ajgxwqhq220m4odm0dcx, primary]
+[INFO] [2015-10-14 15:25:25][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO] [2015-10-14 15:25:25][org.springframework.orm.hibernate4.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2015-10-14 15:25:23",
+	ActiveCount:0,
+	PoolingCount:10,
+	CreateCount:10,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:1208580977, ConnectTime:"2015-10-14 15:25:24", UseCount:0, LastActiveTime:"2015-10-14 15:25:24"},
+		{ID:1720147113, ConnectTime:"2015-10-14 15:25:24", UseCount:0, LastActiveTime:"2015-10-14 15:25:24"},
+		{ID:1087672277, ConnectTime:"2015-10-14 15:25:24", UseCount:0, LastActiveTime:"2015-10-14 15:25:24"},
+		{ID:1127156275, ConnectTime:"2015-10-14 15:25:24", UseCount:0, LastActiveTime:"2015-10-14 15:25:24"},
+		{ID:1162263738, ConnectTime:"2015-10-14 15:25:24", UseCount:0, LastActiveTime:"2015-10-14 15:25:24"},
+		{ID:655391454, ConnectTime:"2015-10-14 15:25:24", UseCount:0, LastActiveTime:"2015-10-14 15:25:24"},
+		{ID:720541915, ConnectTime:"2015-10-14 15:25:24", UseCount:0, LastActiveTime:"2015-10-14 15:25:24"},
+		{ID:487679972, ConnectTime:"2015-10-14 15:25:24", UseCount:0, LastActiveTime:"2015-10-14 15:25:24"},
+		{ID:1639692452, ConnectTime:"2015-10-14 15:25:24", UseCount:0, LastActiveTime:"2015-10-14 15:25:24"},
+		{ID:1800882460, ConnectTime:"2015-10-14 15:25:24", UseCount:2, LastActiveTime:"2015-10-14 15:25:25"}
+	]
+}
+
+[
+	{
+	ID:1208580977, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1720147113, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1087672277, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1127156275, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1162263738, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:655391454, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:720541915, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:487679972, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1639692452, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1800882460, 
+	poolStatements:[
+		]
+	}
+]] of Hibernate SessionFactory for HibernateTransactionManager
+[INFO] [2015-10-14 15:25:25][org.springframework.cache.ehcache.EhCacheManagerFactoryBean]Initializing EhCache CacheManager
+[INFO] [2015-10-14 15:25:25][org.hibernate.validator.internal.util.Version]HV000001: Hibernate Validator 4.3.1.Final
+[INFO] [2015-10-14 15:25:25][org.springframework.test.context.transaction.TransactionContext]Began transaction (1) for test context [DefaultTestContext@24d55298 testClass = TestUser, testInstance = baseProject.TestUser@31218c0c, testMethod = testSave@TestUser, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@11718107 testClass = TestUser, locations = '{classpath:spring-config.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.hibernate4.HibernateTransactionManager@32cdfb83]; rollback [false]
+[INFO] [2015-10-14 15:25:25][org.springframework.test.context.transaction.TransactionContext]Committed transaction for test context [DefaultTestContext@24d55298 testClass = TestUser, testInstance = baseProject.TestUser@31218c0c, testMethod = testSave@TestUser, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@11718107 testClass = TestUser, locations = '{classpath:spring-config.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+[INFO] [2015-10-14 15:25:25][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@7362e07d: startup date [Wed Oct 14 15:25:23 CST 2015]; root of context hierarchy
+[INFO] [2015-10-14 15:25:25][org.springframework.cache.ehcache.EhCacheManagerFactoryBean]Shutting down EhCache CacheManager
+[INFO] [2015-10-14 15:25:26][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
